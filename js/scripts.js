@@ -10,14 +10,14 @@ $(document).ready(function() {
         const sportInput = $("input#sport").val();
 
         
-      // $(".name").text(nameInput);
-      // $(".dob").text(dobInput);
-      // $(".food").text(foodInput);
-      // $(".music").text(musicInput);
-      // $(".noun").text(nounInput);
-      // $(".color").text(colorInput);
-      // $(".sport").text(sportInput);
+      $(".name").text(nameInput);
+      $(".dob").text(dobInput);
+      $(".food").text(foodInput);
+      $(".music").text(musicInput);
+      $(".noun").text(nounInput);
+      $(".color").text(colorInput);
+      $(".sport").text(sportInput);
      
-      // $("#survey").show();
+      $("#survey").show();
     });
 });
